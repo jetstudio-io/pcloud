@@ -1,0 +1,4 @@
+/vendor/
+.idea
+example/config.php
+.phpcs-cache

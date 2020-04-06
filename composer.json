@@ -1,0 +1,44 @@
+{
+    "name": "macosxvn/pcloud",
+    "description": "pCloud SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Louis Nguyen",
+            "email": "thiep.nguyen@jetcoder.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jetcoder\\PCloud\\": "src/Jetcoder/PCloud"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jetcoder\\PCloud\\Tests\\": "tests/Jetcoder/PCloud"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "jms/serializer": "^3.6",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.18",
+        "squizlabs/php_codesniffer": "^3.5",
+        "vimeo/psalm": "^3.8",
+        "phpunit/phpunit": "^9"
+    },
+    "scripts": {
+        "phpstan": "php -dmemory_limit=500M ./vendor/bin/phpstan analyse --level=7 --ansi src",
+        "psalm": "php -dmemory_limit=500M ./vendor/bin/psalm",
+        "phpcs": "php ./vendor/bin/phpcs",
+        "phpcs-fixer": "./vendor/bin/phpcbf",
+        "code-style": [
+            "@phpstan",
+            "@psalm",
+            "@phpcs"
+        ]
+    }
+}
