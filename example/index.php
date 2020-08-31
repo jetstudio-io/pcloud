@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2020. Jetcoder
+ * Copyright (c) 2020. Jet Studio
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@
 
 /**
  * Project pcloud
- * @author Louis Nguyen <louis.nguyen@jetcoder.net>
+ * @author Louis Nguyen <louis.nguyen@jetstudio.io>
  * Date: 06/04/2020
  */
 

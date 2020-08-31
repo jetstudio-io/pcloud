@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2020. Jetcoder
+ * Copyright (c) 2020. Jet Studio
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@
 
 /**
  * Project pcloud
- * @author Louis Nguyen <louis.nguyen@jetcoder.net>
+ * @author Louis Nguyen <louis.nguyen@jetstudio.io>
  * Date: 06/04/2020
  */
 
@@ -40,13 +40,13 @@ abstract class Metadata
      * @Serializer\Type("string")
      * @var string
      */
-    protected $id = '';
+    protected string $id = '';
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $icon = 'folder';
+    protected string $icon = 'folder';
 
     /**
      * the folderid of the folder the object resides in
@@ -54,49 +54,49 @@ abstract class Metadata
      * @Serializer\Type("int")
      * @var int
      */
-    protected $parentfolderid = 0;
+    protected int $parentfolderid = 0;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $isfolder = true;
+    protected bool $isfolder = true;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $ismine = true;
+    protected bool $ismine = true;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $isshared = false;
+    protected bool $isshared = false;
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $name = '';
+    protected string $name = '';
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $created = 0;
+    protected int $created = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $modified = 0;
+    protected int $modified = 0;
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $path = '';
+    protected string $path = '';
 
     /**
      * @return string

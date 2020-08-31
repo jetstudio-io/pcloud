@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2020. Jetcoder
+ * Copyright (c) 2020. Jet Studio
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@
 
 /**
  * Project pcloud
- * @author Louis Nguyen <louis.nguyen@jetcoder.net>
+ * @author Louis Nguyen <louis.nguyen@jetstudio.io>
  * Date: 06/04/2020
  */
 
@@ -40,37 +40,37 @@ class Token
      * @Serializer\Type("string")
      * @var string
      */
-    protected $device = '';
+    protected string $device = '';
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $tokenid = 0;
+    protected int $tokenid = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $expiresInactive = 0;
+    protected int $expiresInactive = 0;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $current = true;
+    protected bool $current = true;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $expires = 0;
+    protected int $expires = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $created = 0;
+    protected int $created = 0;
 
     /**
      * @return string

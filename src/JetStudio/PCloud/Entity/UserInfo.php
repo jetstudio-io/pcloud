@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2020. Jetcoder
+ * Copyright (c) 2020. Jet Studio
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@
 
 /**
  * Project pcloud
- * @author Louis Nguyen <louis.nguyen@jetcoder.net>
+ * @author Louis Nguyen <louis.nguyen@jetstudio.io>
  * Date: 06/04/2020
  */
 
@@ -40,139 +40,139 @@ class UserInfo
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $cryptosetup = false;
+    protected bool $cryptosetup = false;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $plan = 0;
+    protected int $plan = 0;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $cryptosubscription = false;
+    protected bool $cryptosubscription = false;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $publiclinkquota = 0;
+    protected int $publiclinkquota = 0;
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $email = '';
+    protected string $email = '';
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $result = 0;
+    protected int $result = 0;
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $auth = '';
+    protected string $auth = '';
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $emailverified = true;
+    protected bool $emailverified = true;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $trashrevretentiondays = 15;
+    protected int $trashrevretentiondays = 15;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $usedpublinkbranding = false;
+    protected bool $usedpublinkbranding = false;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $userid = 0;
+    protected int $userid = 0;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $agreedwithpp = true;
+    protected bool $agreedwithpp = true;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $quota = 0;
+    protected int $quota = 0;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $haspassword = true;
+    protected bool $haspassword = true;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $premium = false;
+    protected bool $premium = false;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $premiumlifetime = false;
+    protected bool $premiumlifetime = false;
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $cryptolifetime = false;
+    protected bool $cryptolifetime = false;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $usedquota = 0;
+    protected int $usedquota = 0;
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $language = 'en';
+    protected string $language = 'en';
 
     /**
      * @Serializer\Type("boolean")
      * @var bool
      */
-    protected $business = false;
+    protected bool $business = false;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $freequota = 0;
+    protected int $freequota = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $registered = 0;
+    protected int $registered = 0;
 
     /**
      * @Serializer\Type("array")
      * @var array
      */
-    protected $journey = [];
+    protected array $journey = [];
 
     /**
      * @return bool

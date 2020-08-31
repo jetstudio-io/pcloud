@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2020. Jetcoder
+ * Copyright (c) 2020. Jet Studio
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@
 
 /**
  * Project pcloud
- * @author Louis Nguyen <louis.nguyen@jetcoder.net>
+ * @author Louis Nguyen <louis.nguyen@jetstudio.io>
  * Date: 06/04/2020
  */
 
@@ -43,91 +43,91 @@ class UploadLink
      * @Serializer\Type("int")
      * @var int
      */
-    protected $folderid = 0;
+    protected int $folderid = 0;
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $path = '';
+    protected string $path = '';
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $comment = '';
+    protected string $comment = '';
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $expire = 0;
+    protected int $expire = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $maxspace = self::DEFAULT_MAX_SPACE;
+    protected int $maxspace = self::DEFAULT_MAX_SPACE;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $maxfiles = 0;
+    protected int $maxfiles = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $uploadlinkid = 0;
+    protected int $uploadlinkid = 0;
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $link = '';
+    protected string $link = '';
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $mail = '';
+    protected string $mail = '';
 
     /**
      * @Serializer\Type("string")
      * @var string
      */
-    protected $code = '';
+    protected string $code = '';
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $space = 0;
+    protected int $space = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $files = 0;
+    protected int $files = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $created = 0;
+    protected int $created = 0;
 
     /**
      * @Serializer\Type("int")
      * @var int
      */
-    protected $modified = 0;
+    protected int $modified = 0;
 
     /**
-     * @Serializer\Type("Jetcoder\PCloud\Entity\Folder")
+     * @Serializer\Type("JetStudio\PCloud\Entity\Folder")
      * @var Folder|null
      */
-    protected $metadata = null;
+    protected ?Folder $metadata = null;
 
     /**
      * @return int

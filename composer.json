@@ -1,17 +1,17 @@
 {
-    "name": "macosxvn/pcloud",
+    "name": "jetstudio/pcloud",
     "description": "pCloud SDK for PHP",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Louis Nguyen",
-            "email": "thiep.nguyen@jetcoder.net"
+            "email": "louis.nguyen@jetstudio.io"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Jetcoder\\PCloud\\": "src/Jetcoder/PCloud"
+            "Jetcoder\\PCloud\\": "src/JetStudio/PCloud"
         }
     },
     "autoload-dev": {
@@ -20,6 +20,7 @@
         }
     },
     "require": {
+        "php": ">=7.4",
         "guzzlehttp/guzzle": "^6.5",
         "jms/serializer": "^3.6",
         "ext-json": "*"
